@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drum Kit</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+</head>
+<body>
+	<p id="soundText">let's play!</p>
+	<div class="keys">
+		<p class="label">kick</p>
+		<p class="label">snare</p>
+		<p class="label">clap</p>
+		<p class="label">tom1</p>
+		<p class="label">tom2</p>
+		<p class="label">closedhat</p>
+		<p class="label">openhat</p>
+		<p class="label">perc</p>
+		<p class="label">crash</p>
+	</div>
+	
+	<div class="keys">
+		<div data-key="65" data-sound="boom!" class = "key">A</div>
+		<div data-key="83" data-sound="donk!" class = "key">S</div>
+		<div data-key="68" data-sound="clap!" class = "key">D</div>
+		<div data-key="70" data-sound="dum!" class = "key">F</div>
+		<div data-key="71" data-sound="dom!" class = "key">G</div>
+		<div data-key="72" data-sound="ts!" class = "key">H</div>
+		<div data-key="74" data-sound="tsssss!" class = "key">J</div>
+		<div data-key="75" data-sound="knock!" class = "key">K</div>
+		<div data-key="76" data-sound="crash!" class = "key">L</div>
+	</div>
+
+	<audio id="65" src="../Audio/kick.wav"></audio>
+	<audio id="83" src="../Audio/snare.wav"></audio>
+	<audio id="68" src="../Audio/clap.wav"></audio>
+	<audio id="70" src="../Audio/tom1.wav"></audio>
+	<audio id="71" src="../Audio/tom2.wav"></audio>
+	<audio id="72" src="../Audio/closedhat.wav"></audio>
+	<audio id="74" src="../Audio/openhat.wav"></audio>
+	<audio id="75" src="../Audio/perc.wav"></audio>
+	<audio id="76" src="../Audio/crash.wav"></audio>
+
+	<script type="text/javascript" src="../JavaScript/myScript.js"></script>
+</body>
+</html>

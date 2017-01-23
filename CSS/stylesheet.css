@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: futura;
+}
+
+body {
+	background-color: #000;
+}
+
+#soundText {
+	position: relative;
+	top: 50px;
+	font-size: 80px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+}
+
+.keys {
+	width: 1010px;
+	position: relative;
+	top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: orange;
+}
+
+.key {
+	float: left;
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	border-radius: 20px;
+	border: 6px solid white;
+	color: white;
+	font-size: 20px;
+	transition: all .05s;
+}
+
+.label {
+	position: relative;
+	top: 35px;
+	float: left;
+	width: 92px;
+	margin: 10px;
+	text-align: center;
+	line-height: 80px;
+	color: white;
+	font-size: 20px;
+	transition: all .05s;
+}
+
+.enlarge {
+	transform:scale(1.8);
+}
